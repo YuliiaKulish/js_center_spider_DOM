@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=function(){var e=t.clientWidth,i=t.clientHeight,o=n.clientWidth,l=n.clientHeight;t.style.left=(o-e)/2+"px",t.style.top=(l-i)/2+"px"},t=document.querySelector(".spider"),n=document.querySelector(".wall");t&&n&&(n.style.position="relative",t.style.position="absolute",t.complete?e():t.addEventListener("load",e),window.addEventListener("resize",function(){e()}))});
+//# sourceMappingURL=index.c685e69f.js.map
